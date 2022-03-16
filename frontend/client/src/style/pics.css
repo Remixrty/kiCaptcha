@@ -1,0 +1,98 @@
+.whitelogo {
+    /* content: url(../../public/pics/logo.svg); */
+    background-image: url(../../public//pics/logo.svg);
+    width: 229px;
+    height: 56px;
+    /* fill: white; */
+    opacity: 0.66;
+    transition-duration: 700ms;
+    display: inline;
+    position: inherit;
+    color: #fafafa;
+}
+
+.vector {
+    margin: 40px 165px 12.42px 165px;
+}
+
+.whitelogo:hover {
+    transition-duration: 700ms;
+    opacity: 1;
+}
+
+.blacklogo {
+    /* content: url(../../public/pics/logo.png); */
+    background-image: url(../../public/pics/blacklogo.svg);
+    width: 229px;
+    height: 56px;
+    opacity: 0.66;
+    transition-duration: 700ms;
+    display: inline;
+    /* fill: black; */
+    position: relative;
+}
+
+.blacklogo:hover {
+    transition-duration: 700ms;
+    opacity: 1;
+}
+
+
+.beautline {
+    content: url(../../public/pics/beautline.png);
+    position: relative;
+    display: inline-block;
+    /* max-width: 512px; */
+    /* left: 89px;
+    top: 283px; */
+    margin: 0px 0px 0px 89px;
+}
+
+@media (min-width: 0px) and (max-width: 601px) {
+    .beautline {
+        width: 300px;
+    }
+}
+
+
+.giffy {
+    content: url(../../public/pics/giffy1st.gif);
+    align-self: flex-end;
+    z-index: 5;
+    margin: 0;
+    float: right;
+    position: absolute;
+    max-width: 480px;
+    max-height: 480px;
+    white-space: nowrap;
+}
+
+.giffy2nd {
+    content: url(../../public/pics/giffy2nd.gif);
+    align-self: flex-start;
+    z-index: 5;
+    margin: 0;
+    float: left;
+    position: absolute;
+    max-width: 480px;
+    max-height: 480px;
+    white-space: nowrap;
+}
+
+
+
+
+@media (max-width:1440px) {
+    .giffy {
+        display: none;
+    }
+    .giffy2nd {
+        display: none;
+    }
+}
+
+
+
+img.blur {
+    content: url(../../public/pics/blurblack.png);
+}

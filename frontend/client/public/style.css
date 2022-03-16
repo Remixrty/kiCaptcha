@@ -1,0 +1,130 @@
+@import url(./fonts/stylesheet.css);
+body {
+    margin: 0;
+}
+
+.headcontainer {
+    position: absolute;
+    display: inline-block;
+    height: 57px;
+    left: 48px;
+    top: 48px;
+    right: 48px;
+}
+
+.top-button-login {
+    display: inline-block;
+    position: inherit;
+    height: 36px;
+    right: 196px;
+    top: 15px;
+    /*font*/
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.top-button-getstarted {
+    display: inline-block;
+    position: inherit;
+    height: 36px;
+    width: 136px;
+    right: 0px;
+    top: 15px;
+    /*font*/
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.firstpage {
+    min-height: 100%;
+    max-height: fit-content;
+    overflow: visible;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    background-color: #000000;
+}
+
+.secondpage {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    max-height: fit-content;
+    margin: 0;
+    background-color: white;
+}
+
+div.maintext {
+    color: white;
+    margin: 358px 0 0 0;
+    max-width: 969px;
+    max-height: 533px;
+}
+
+div.maintext p.bigg {
+    position: relative;
+    max-width: 607px;
+    margin: 0 0 0 89px;
+    /*font*/
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 56px;
+}
+
+div.maintext p.med {
+    position: relative;
+    max-width: 880px;
+    margin: 20px 0px 0 89px;
+    /*font*/
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 41px;
+    opacity: 0.8;
+}
+
+div.degger p.deg {
+    position: absolute;
+    top: 694px;
+    left: -34px;
+    max-width: 280px;
+    margin: -115px 0 0 0;
+    /*font*/
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.66);
+    transform: rotate(-90deg);
+}
+
+div.maintext p.readmore {
+    position: relative;
+    max-width: 134px;
+    max-height: 24px;
+    margin: 177px 0px 0 89px;
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}

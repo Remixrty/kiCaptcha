@@ -1,0 +1,13 @@
+@import url(./App.css);
+
+.personalKab {
+    /* border-top-left-radius: 45px; */
+    border-bottom-right-radius: 45px;
+    /* border-radius: 30px; */
+    width: 100vw;
+    min-height: 100vh;
+    max-height: fit-content;
+    margin: 0;
+    background-color: #FAFAFA;
+}
+

@@ -1,0 +1,485 @@
+body {
+    margin: 0;
+    background-color: black;
+    /* align-items: center; */
+}
+
+.headcontainer {
+    position: absolute;
+    display: flex;
+    height: 57px;
+    left: 48px;
+    top: 48px;
+    right: 48px;
+    background-color: #000000;
+    border-radius: 25px;
+    /* overflow: hidden; */
+    justify-content: space-between;
+
+}
+
+.notHeader {
+    margin-top: 48px;
+    margin-left: 48px;
+    display: inline-block;
+}
+
+.top-button-login {
+    height: 36px;
+    margin: 15px 55px 0px 0px;
+    
+    cursor: pointer;
+    /*font*/
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.top-button-getstarted {
+    /* display: inline-block; */
+    /* position: inherit; */
+    /* align-self: flex-end; */
+
+
+    height: 36px;
+    width: 136px;
+    margin: 15px 0px 0px 0px;
+    cursor: pointer;
+    /*font*/
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hamburger {
+    margin-top: 12px;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    z-index: 10;
+    /* display: none; */
+}
+
+.noWrapButtons {
+    display: inline-flex;
+}
+
+@media (min-width: 768px) {
+    .hamburger {
+        display: none;
+    }
+    
+}
+
+.burger {
+    width: 2rem;
+    height: 0.25rem;
+    border-radius: 10px;
+    background-color: white;
+    transform-origin: 1px;
+    transition: all 0.3s linear;
+}
+
+@media (max-width: 767px) {
+   .hamburger {
+       display: fixed;
+       margin-right: 10px;
+
+   }
+
+   .noWrapButtons {
+       display: none;
+   }
+}
+
+
+
+
+
+.firstpagebg {
+    background-color: #FAFAFA;
+}
+
+.firstpage {
+    min-height: 100vh;
+    max-height: fit-content;
+    overflow:hidden;
+    word-wrap: break-word;
+    width: 100%;
+    margin: 0;
+    background-color: #000000;
+    border-bottom-right-radius: 45px;
+    /* border-top-left-radius: 45px;  */
+}
+
+.secondpage {
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    /* border-radius: 30px; */
+    width: 100% ;
+    min-height: 100vh;
+    max-height: fit-content;
+    margin: 0;
+    background-color: #FAFAFA;
+
+}
+
+.thirdpagebg {
+    background-color: #FAFAFA;
+}
+
+.thirdpage {
+    border-top-right-radius: 45px;
+    width: 100%;
+    min-height: 100vh;
+    max-height: fit-content;
+    margin: 0;
+    background-color: #000000;
+
+}
+
+.container1st {
+    color: white;
+    margin: 26.2vh 65px 0 0;
+    /* min-width: 48vw; */
+    max-width: 100vw;
+    max-height: fit-content;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+
+.container2nd {
+    color: black;
+    margin: 18.3vh 64px 0px 0px;
+    min-width: 48%;
+    max-width: 100%;
+    max-height: fit-content;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    align-items: flex-end;
+}
+
+
+
+
+.containerText {
+    z-index: 6;
+    display: flow-root;
+
+    /* backdrop-filter:unset; */
+    /* opacity: 0.5; */
+}
+
+.firstpage .container1st {
+    background-color: #00000071;
+}
+
+@media (min-width: 0px) and (max-width: 499px) {
+    .bigg {
+        font-size: 36px;
+    }
+    .med {
+        font-size: 24px;
+    }
+}
+
+
+
+@media (min-width: 500px) and (max-width: 599px) {
+    .bigg {
+        font-size: 46px;
+    }
+    .med {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1920px) {
+    .bigg {
+        font-size: 56px;
+    }
+    .med {
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 1921px) {
+    .bigg {
+        font-size: 66px;
+    }
+    .med {
+        font-size: 42px;
+    }
+}
+
+.bigg {
+    max-width: 607px;
+    margin: 31px 0px 0 89px;
+    /*font*/
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: bold;
+    word-wrap: break-all;
+    /* font-size: 56px; */
+    
+    line-height: 56px;
+    
+}
+
+.med {
+
+    margin: -65px 0px 0px 89px;
+    max-width: 880px;
+    height: fit-content;
+    /*font*/
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: 100;
+    /* font-size: 32px; */
+    line-height: 41px;
+    opacity: 0.8;
+}
+
+
+
+.deg {
+    min-width: fit-content;
+    max-width: 280px;
+    margin: 61px 0px 0px -82px;
+    /*font*/
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.66);
+    transform: rotate(-90deg);
+    transform-origin: right right right;
+}
+
+p.readmore {
+    max-width: 134px;
+    max-height: 24px;
+    margin: 177px 0px 50px 89px;
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-decoration-line: underline;
+}
+
+
+
+/* дальше пример для формы логина */
+.mainform {
+    color: #FAFAFA;
+    max-width: 65%;
+    margin: 130px auto;
+    /* background-color: #f5f5f5; */
+    border-radius: 10px;
+    text-align: center;
+}
+
+.formText {
+    text-align: start;
+    margin-bottom: 68px;
+    /* color: #FFFFFF; */
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 36px;
+    /* identical to box height */
+}
+
+.policyText {
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+}
+
+
+.form-signin {
+    max-height: fit-content;
+    /* width:65%; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.columnOne {
+    min-width: 300px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.columnTwo {
+    /* position: inherit; */
+    /* margin-left: 5%; */
+    width: 45%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* @media (max-width: ) {
+    
+} */
+
+.superField {
+    text-align: start;
+    margin-bottom: 56px;
+    /* color: #FFFFFF; */
+    max-height: 80px;
+}
+
+.labelText {
+    margin: 0;
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height */
+}
+
+.formField {
+    height: 40px;
+    background: none;
+    margin-top: 16px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border-radius: 10px;
+    width: 100%;
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FAFAFA;
+}
+
+.formField:focus {
+    outline: none;
+
+}
+
+.submitButton {
+    min-width: 166px;
+    max-width: fit-content;
+    height: 40px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: auto;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.checkBox {
+    background: #000000;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 24px;
+    height: 24px;
+    margin: 0px 16px 0px 0px;
+}
+
+.custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.custom-checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.custom-checkbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 0.25em;
+    margin-right: 16px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+
+.custom-checkbox:checked+label::before {
+    border-color: #0b76ef;
+    background-color: #0b76ef;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+
+.custom-checkbox:not(:disabled):not(:checked)+label:hover::before {
+    border-color: #b3d7ff;
+}
+
+/* стили для активного состояния чекбокса (при нажатии на него) */
+.custom-checkbox:not(:disabled):active+label::before {
+    background-color: #b3d7ff;
+    border-color: #b3d7ff;
+}
+
+/* стили для чекбокса, находящегося в фокусе */
+.custom-checkbox:focus+label::before {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
+.custom-checkbox:focus:not(:checked)+label::before {
+    border-color: #80bdff;
+}
+
+/* стили для чекбокса, находящегося в состоянии disabled */
+.custom-checkbox:disabled+label::before {
+    background-color: #e9ecef;
+}
+
+.errorPasswordText {
+    color: red;
+    visibility: hidden;
+}
+
+
+

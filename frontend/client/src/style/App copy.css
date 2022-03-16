@@ -1,0 +1,286 @@
+
+body {
+    margin: 0;
+    background-color: black;
+    align-items: center;
+}
+
+.headcontainer {
+    position: absolute;
+    display: inline-block;
+    height: 57px;
+    left: 48px;
+    top: 48px;
+    right: 48px;
+    background-color: #000000;
+    border-radius: 25px;
+    
+}
+
+.notHeader {
+    margin-top: 48px;
+    margin-left: 48px;
+    display: inline-block;
+}
+
+.top-button-login {
+    display: inline-block;
+    position: inherit;
+    height: 36px;
+    right: 196px;
+    top: 15px;
+    /*font*/
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.top-button-getstarted {
+    display: inline-block;
+    position: inherit;
+    height: 36px;
+    width: 136px;
+    right: 0px;
+    top: 15px;
+    cursor: pointer;
+    /*font*/
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.firstpagebg {
+    background-color: #FAFAFA;
+}
+.firstpage {
+    min-height: 100vh;
+    max-height: fit-content;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    background-color: #000000;
+    border-bottom-right-radius: 45px;
+    /* border-top-left-radius: 45px;  */
+}
+
+.secondpage {
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    /* border-radius: 30px; */
+    width: 100%;
+    min-height: 100vh;
+    max-height: fit-content;
+    margin: 0;
+    background-color: #FAFAFA;
+   
+}
+
+.thirdpagebg {
+    background-color: #FAFAFA;
+}
+.thirdpage {
+    border-top-right-radius: 45px;
+    width: 100%;
+    min-height: 100vh;
+    max-height: fit-content;
+    margin: 0;
+    background-color: #000000;
+   
+}
+
+.container1st {
+    color: white;
+    margin: 283px 0 0 0;
+    min-width: 48%;
+    max-width: 80%;
+    max-height: fit-content;
+    position: relative;
+    display:flow-root;
+    align-items: flex-start;
+}
+
+div.maintext {
+    
+    margin: 358px 0 0 0;
+    max-width: 969px;
+    max-height: fit-content;
+    position: relative;
+    display:flow-root;
+    align-items: flex-start;
+}
+
+p.bigg {
+    max-width: 607px;
+    margin: 31px 0 0 89px;
+    /*font*/
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 56px;
+}
+
+p.med {
+    
+    margin: -65px 0px 0 89px;
+    max-width: 880px;
+    /*font*/
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 41px;
+    opacity: 0.8;
+}
+
+
+
+p.deg {
+    min-width: fit-content;
+    max-width: 280px;
+    margin: 61px 0px 0px -82px;
+    /*font*/
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.66);
+    transform: rotate(-90deg);
+    transform-origin: right right right;
+}
+
+p.readmore {
+    max-width: 134px;
+    max-height: 24px;
+    margin: 177px 0px 0 89px;
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-decoration-line: underline;    
+}
+
+
+
+/* дальше пример для формы логина */
+.mainform {
+    max-width: 1180px;
+    max-height: 677px;
+    margin: 130px auto;
+    /* background-color: #f5f5f5; */
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form-signin {
+    max-height: 573px;
+    max-width: 1180px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.columnOne {
+    margin-right: 5%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.columnTwo {
+    margin-left: 5%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formText {
+    text-align: start;
+    margin-bottom: 68px;
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 36px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.labelText {
+    text-align: start;
+    margin: 0;
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.formField {
+    width: 480px;
+    height: 40px;
+    
+    background: none;
+    margin-top: 16px;
+    margin-bottom: 56px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border-radius: 10px;
+
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FAFAFA;
+}
+
+.submitButton {
+    width: 166px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin:auto;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+
+.checkBox {
+    background: #000000;
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 6px;
+width: 24px;
+height: 24px;
+}
+
+
+  
+  
+  
+  
+  
+  

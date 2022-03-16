@@ -1,0 +1,162 @@
+@import url(./App.css);
+
+
+.mainform-Login {
+    max-width: 402px;
+    max-height: 623px;
+    /* z-index: 8; */
+    margin: 20vh auto;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 10px;
+}
+
+.mainform-Login .superField {
+    margin-bottom: 16px;
+    margin-left: 64px;
+}
+
+.superField .labelText {
+    text-align: start;
+    margin-left: 10px;
+}
+
+.mainform-Login .labelText {
+
+    margin-bottom: 0px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #838383;
+}
+
+.mainform-Login .formField {
+    max-width: 274px;
+    margin-top: 6px;
+}
+
+.mainform-Login .formText {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+
+.mainform-Login .formField {
+    color: #000000;
+    border-color: #000000;
+}
+
+.mainform-Login .submitButton {
+
+    max-width: 112px;
+}
+
+.labelMicroText {
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: -8px;
+    margin-bottom: 0px;
+}
+
+.superFieldBut {
+    text-align: center;
+    margin-top: 52px;
+}
+
+.superFieldCancel {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.superFieldGetStarted {
+    margin-top: 64px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    height: 19px;
+}
+
+.loginText {
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #838383;
+    text-align: center;
+}
+
+.bottomText {
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    margin-left: 43px;
+    margin-right: 43px;
+    color: #000000;
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+
+.cancelBut  {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 29px;
+    text-align: center;
+}
+
+/* .loginBody {
+    background-color: #00000080;
+    align-items: center;
+    display: inline;
+    justify-content: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0px;
+    z-index: 9;
+    visibility: hidden;
+ } */
+
+.modal {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.modal.active {
+    opacity: 1;
+    transition: 0.5s;
+    pointer-events: all;
+}
